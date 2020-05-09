@@ -1,0 +1,6 @@
+framework module Pods_Silia {
+  umbrella header "Pods-Silia-umbrella.h"
+
+  export *
+  module * { export * }
+}

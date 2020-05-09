@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		115F387549895B8CB3AB5816 /* Pods_Silia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D296E9366504941F958CC304 /* Pods_Silia.framework */; };
+		D3A1C3FA2450CF71002F722A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A1C3F92450CF71002F722A /* AppDelegate.swift */; };
+		D3A1C4022450CF71002F722A /* Silia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D3A1C4002450CF71002F722A /* Silia.xcdatamodeld */; };
+		D3A1C41A2450CFE1002F722A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A1C40F2450CFE1002F722A /* SignUpViewController.swift */; };
+		D3A1C41B2450CFE1002F722A /* OptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A1C4102450CFE1002F722A /* OptionViewController.swift */; };
+		D3A1C41C2450CFE1002F722A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A1C4112450CFE1002F722A /* HomeView.swift */; };
+		D3A1C41D2450CFE1002F722A /* SendLetterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A1C4122450CFE1002F722A /* SendLetterViewController.swift */; };
+		D3A1C41E2450CFE1002F722A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A1C4132450CFE1002F722A /* HomeViewController.swift */; };
+		D3A1C41F2450CFE1002F722A /* SendLetterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A1C4142450CFE1002F722A /* SendLetterView.swift */; };
+		D3A1C4202450CFE1002F722A /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A1C4152450CFE1002F722A /* InfoViewController.swift */; };
+		D3A1C4212450CFE1002F722A /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A1C4162450CFE1002F722A /* SignInView.swift */; };
+		D3A1C4222450CFE1002F722A /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A1C4172450CFE1002F722A /* SignUpView.swift */; };
+		D3A1C4232450CFE1002F722A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A1C4182450CFE1002F722A /* SignInViewController.swift */; };
+		D3A1C4242450CFE1002F722A /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A1C4192450CFE1002F722A /* HomeScreenViewController.swift */; };
+		D3A1C42D2450CFF0002F722A /* GIF-200421_143932.gif in Resources */ = {isa = PBXBuildFile; fileRef = D3A1C4262450CFF0002F722A /* GIF-200421_143932.gif */; };
+		D3A1C42E2450CFF1002F722A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3A1C4272450CFF0002F722A /* Assets.xcassets */; };
+		D3A1C4372450D02E002F722A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A1C4332450D02E002F722A /* LaunchScreen.storyboard */; };
+		D3A1C4382450D02E002F722A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A1C4352450D02E002F722A /* Main.storyboard */; };
+		D3A1C43B2450D05D002F722A /* GifReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A1C43A2450D05C002F722A /* GifReader.swift */; };
+		D3A1C43F2450D5E0002F722A /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A1C43E2450D5E0002F722A /* Tools.swift */; };
+		D3A450442451EA7700A812A9 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D3A450412451EA7700A812A9 /* ProgressHUD.bundle */; };
+		D3A450452451EA7700A812A9 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A450432451EA7700A812A9 /* ProgressHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F046D88FEE6B357FFFEA434 /* Pods-Silia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Silia.release.xcconfig"; path = "Target Support Files/Pods-Silia/Pods-Silia.release.xcconfig"; sourceTree = "<group>"; };
+		5D21D3090B81504AC22590F4 /* Pods-Silia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Silia.debug.xcconfig"; path = "Target Support Files/Pods-Silia/Pods-Silia.debug.xcconfig"; sourceTree = "<group>"; };
+		D296E9366504941F958CC304 /* Pods_Silia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Silia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3A1C3F62450CF71002F722A /* Silia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Silia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3A1C3F92450CF71002F722A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3A1C4012450CF71002F722A /* Silia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Silia.xcdatamodel; sourceTree = "<group>"; };
+		D3A1C4082450CF95002F722A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3A1C40F2450CFE1002F722A /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		D3A1C4102450CFE1002F722A /* OptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionViewController.swift; sourceTree = "<group>"; };
+		D3A1C4112450CFE1002F722A /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D3A1C4122450CFE1002F722A /* SendLetterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendLetterViewController.swift; sourceTree = "<group>"; };
+		D3A1C4132450CFE1002F722A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D3A1C4142450CFE1002F722A /* SendLetterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendLetterView.swift; sourceTree = "<group>"; };
+		D3A1C4152450CFE1002F722A /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		D3A1C4162450CFE1002F722A /* SignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		D3A1C4172450CFE1002F722A /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		D3A1C4182450CFE1002F722A /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		D3A1C4192450CFE1002F722A /* HomeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		D3A1C4262450CFF0002F722A /* GIF-200421_143932.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "GIF-200421_143932.gif"; sourceTree = "<group>"; };
+		D3A1C4272450CFF0002F722A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3A1C4342450D02E002F722A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3A1C4362450D02E002F722A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3A1C43A2450D05C002F722A /* GifReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifReader.swift; sourceTree = "<group>"; };
+		D3A1C43E2450D5E0002F722A /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		D3A450402451EA7600A812A9 /* Silia-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Silia-Bridging-Header.h"; sourceTree = "<group>"; };
+		D3A450412451EA7700A812A9 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		D3A450422451EA7700A812A9 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		D3A450432451EA7700A812A9 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3A1C3F32450CF71002F722A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115F387549895B8CB3AB5816 /* Pods_Silia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6661BC74795D6CBD158EC52A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D21D3090B81504AC22590F4 /* Pods-Silia.debug.xcconfig */,
+				3F046D88FEE6B357FFFEA434 /* Pods-Silia.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D3A1C3ED2450CF70002F722A = {
+			isa = PBXGroup;
+			children = (
+				D3A1C3F82450CF71002F722A /* Silia */,
+				D3A450412451EA7700A812A9 /* ProgressHUD.bundle */,
+				D3A450422451EA7700A812A9 /* ProgressHUD.h */,
+				D3A450432451EA7700A812A9 /* ProgressHUD.m */,
+				D3A450402451EA7600A812A9 /* Silia-Bridging-Header.h */,
+				D3A1C3F72450CF71002F722A /* Products */,
+				6661BC74795D6CBD158EC52A /* Pods */,
+				E6BF67555C93F8528B6E4A11 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D3A1C3F72450CF71002F722A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3A1C3F62450CF71002F722A /* Silia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3A1C3F82450CF71002F722A /* Silia */ = {
+			isa = PBXGroup;
+			children = (
+				D3A1C43C2450D066002F722A /* AppDelegate */,
+				D3A1C4392450D05C002F722A /* Library */,
+				D3A1C40E2450CFE1002F722A /* Controllers */,
+				D3A1C4322450D02E002F722A /* Views */,
+				D3A1C43D2450D3F9002F722A /* Data */,
+				D3A1C4252450CFF0002F722A /* Resources */,
+			);
+			path = Silia;
+			sourceTree = "<group>";
+		};
+		D3A1C40E2450CFE1002F722A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D3A1C4192450CFE1002F722A /* HomeScreenViewController.swift */,
+				D3A1C4102450CFE1002F722A /* OptionViewController.swift */,
+				D3A1C4152450CFE1002F722A /* InfoViewController.swift */,
+				D3A1C40F2450CFE1002F722A /* SignUpViewController.swift */,
+				D3A1C4172450CFE1002F722A /* SignUpView.swift */,
+				D3A1C4182450CFE1002F722A /* SignInViewController.swift */,
+				D3A1C4162450CFE1002F722A /* SignInView.swift */,
+				D3A1C4132450CFE1002F722A /* HomeViewController.swift */,
+				D3A1C4112450CFE1002F722A /* HomeView.swift */,
+				D3A1C4122450CFE1002F722A /* SendLetterViewController.swift */,
+				D3A1C4142450CFE1002F722A /* SendLetterView.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D3A1C4252450CFF0002F722A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D3A1C4082450CF95002F722A /* Info.plist */,
+				D3A1C4262450CFF0002F722A /* GIF-200421_143932.gif */,
+				D3A1C4272450CFF0002F722A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D3A1C4322450D02E002F722A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D3A1C4332450D02E002F722A /* LaunchScreen.storyboard */,
+				D3A1C4352450D02E002F722A /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D3A1C4392450D05C002F722A /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				D3A1C43A2450D05C002F722A /* GifReader.swift */,
+				D3A1C43E2450D5E0002F722A /* Tools.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		D3A1C43C2450D066002F722A /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D3A1C3F92450CF71002F722A /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		D3A1C43D2450D3F9002F722A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D3A1C4002450CF71002F722A /* Silia.xcdatamodeld */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E6BF67555C93F8528B6E4A11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D296E9366504941F958CC304 /* Pods_Silia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3A1C3F52450CF71002F722A /* Silia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3A1C40B2450CF95002F722A /* Build configuration list for PBXNativeTarget "Silia" */;
+			buildPhases = (
+				8BEA8DD74C02012B88FB5DA0 /* [CP] Check Pods Manifest.lock */,
+				D3A1C3F22450CF71002F722A /* Sources */,
+				D3A1C3F32450CF71002F722A /* Frameworks */,
+				D3A1C3F42450CF71002F722A /* Resources */,
+				72F885D10655F17C5C94187C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Silia;
+			productName = Silia;
+			productReference = D3A1C3F62450CF71002F722A /* Silia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3A1C3EE2450CF70002F722A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Mohamed Ali";
+				TargetAttributes = {
+					D3A1C3F52450CF71002F722A = {
+						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
+					};
+				};
+			};
+			buildConfigurationList = D3A1C3F12450CF70002F722A /* Build configuration list for PBXProject "Silia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3A1C3ED2450CF70002F722A;
+			productRefGroup = D3A1C3F72450CF71002F722A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3A1C3F52450CF71002F722A /* Silia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3A1C3F42450CF71002F722A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A1C42E2450CFF1002F722A /* Assets.xcassets in Resources */,
+				D3A1C4382450D02E002F722A /* Main.storyboard in Resources */,
+				D3A1C4372450D02E002F722A /* LaunchScreen.storyboard in Resources */,
+				D3A450442451EA7700A812A9 /* ProgressHUD.bundle in Resources */,
+				D3A1C42D2450CFF0002F722A /* GIF-200421_143932.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72F885D10655F17C5C94187C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Silia/Pods-Silia-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Silia/Pods-Silia-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Silia/Pods-Silia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BEA8DD74C02012B88FB5DA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Silia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3A1C3F22450CF71002F722A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A1C41D2450CFE1002F722A /* SendLetterViewController.swift in Sources */,
+				D3A1C41A2450CFE1002F722A /* SignUpViewController.swift in Sources */,
+				D3A1C41B2450CFE1002F722A /* OptionViewController.swift in Sources */,
+				D3A1C4022450CF71002F722A /* Silia.xcdatamodeld in Sources */,
+				D3A1C4242450CFE1002F722A /* HomeScreenViewController.swift in Sources */,
+				D3A1C4212450CFE1002F722A /* SignInView.swift in Sources */,
+				D3A1C4222450CFE1002F722A /* SignUpView.swift in Sources */,
+				D3A1C43F2450D5E0002F722A /* Tools.swift in Sources */,
+				D3A1C4202450CFE1002F722A /* InfoViewController.swift in Sources */,
+				D3A1C41F2450CFE1002F722A /* SendLetterView.swift in Sources */,
+				D3A1C4232450CFE1002F722A /* SignInViewController.swift in Sources */,
+				D3A1C41C2450CFE1002F722A /* HomeView.swift in Sources */,
+				D3A1C43B2450D05D002F722A /* GifReader.swift in Sources */,
+				D3A1C41E2450CFE1002F722A /* HomeViewController.swift in Sources */,
+				D3A450452451EA7700A812A9 /* ProgressHUD.m in Sources */,
+				D3A1C3FA2450CF71002F722A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3A1C4332450D02E002F722A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3A1C4342450D02E002F722A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D3A1C4352450D02E002F722A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3A1C4362450D02E002F722A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3A1C4092450CF95002F722A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3A1C40A2450CF95002F722A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3A1C40C2450CF95002F722A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D21D3090B81504AC22590F4 /* Pods-Silia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NBM9PQRD2;
+				INFOPLIST_FILE = "$(SRCROOT)/Silia/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MyCompany201.Silia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Silia-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D3A1C40D2450CF95002F722A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F046D88FEE6B357FFFEA434 /* Pods-Silia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NBM9PQRD2;
+				INFOPLIST_FILE = "$(SRCROOT)/Silia/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MyCompany201.Silia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Silia-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3A1C3F12450CF70002F722A /* Build configuration list for PBXProject "Silia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3A1C4092450CF95002F722A /* Debug */,
+				D3A1C40A2450CF95002F722A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3A1C40B2450CF95002F722A /* Build configuration list for PBXNativeTarget "Silia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3A1C40C2450CF95002F722A /* Debug */,
+				D3A1C40D2450CF95002F722A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D3A1C4002450CF71002F722A /* Silia.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D3A1C4012450CF71002F722A /* Silia.xcdatamodel */,
+			);
+			currentVersion = D3A1C4012450CF71002F722A /* Silia.xcdatamodel */;
+			path = Silia.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D3A1C3EE2450CF70002F722A /* Project object */;
+}
